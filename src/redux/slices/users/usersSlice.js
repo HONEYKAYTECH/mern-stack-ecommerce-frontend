@@ -36,7 +36,7 @@ const usersSlice = createSlice({
     name: "users",
     initialState,
     extraReducers:(builder)=>{
-        //hndle action
+        //handle action
         //login
         builder.addCase(loginUserAction.pending, (state, action)=> {
           state.userAuth.loading = true;
